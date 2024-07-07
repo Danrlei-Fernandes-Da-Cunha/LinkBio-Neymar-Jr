@@ -1,0 +1,264 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    /*A Cada 1rem será considerado 10px*/
+    font-size: 62.5%;
+}
+
+/*Seção Banner*/
+
+.secao-banner {
+   position: relative;
+   width: 100%;
+   height: 100vh;
+   font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.banner-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+}
+
+.banner-info {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-img-back {
+    position: relative;
+}
+
+.banner-img {
+    width: 32em;
+    height: 32em;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    border-radius: 10.0rem;
+    position: relative;
+    top: 0.0rem;
+    left: 0.0rem;
+}
+
+.banner-img-back::before {
+    content: "";
+    border-radius: 50.0rem;
+    width: 21.0rem;
+    height: 21.0rem;
+    background-image: linear-gradient(to right, #ffdf00, #009c3b);
+    position: absolute;
+    top:-0.5rem;
+    left: -0.5rem;
+}
+
+.banner-titulo {
+    margin-bottom: 4.0rem;
+    font-size: 4.5rem;
+    text-shadow: 0.4rem 0.3rem 0.2rem black;
+    position: relative;
+}
+
+.banner-titulo::before {
+    content: "";
+    display: block;
+    background-image: url(imagens/verificado.png);
+    background-position: center;
+    background-size: cover;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    top: 4.5rem;
+    left: 19.8rem;
+}
+
+.banner-titulo::after {
+    content: "";
+    display: block;
+    width: 5.3rem;
+    height: 0.4rem;
+    background: linear-gradient(to right, #ffdf00, #009c3b);
+    position: absolute;
+    bottom: 0.5rem;
+    left: 0.5rem;
+    border-radius: 5.0rem;
+}
+
+
+.banner-lista {
+    width: 39%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-lista a {
+    height: 40px;
+    background-color: #0200006e;
+    margin-bottom: 2.0rem;
+    padding: 0.5rem;
+    border: 0.1rem solid black;
+    border-radius: 1.6rem;
+    position: relative;
+    font-weight: 700;
+}
+
+.banner-lista .lista-1::before{
+    content: "";
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-image: url(imagens/youtube.png);
+    background-size: cover;
+    position: absolute;
+    top: 0.7rem;
+    left: 0.8rem;
+}
+
+.banner-lista .lista-2::before{
+    content: "";
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-image: url(imagens/instagram.png);
+    background-size: cover;
+    position: absolute;
+    top: 0.7rem;
+    left: 0.8rem;
+}
+
+.banner-lista .lista-3::before{
+    content: "";
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-image: url(imagens/twitter.png);
+    background-size: cover;
+    position: absolute;
+    top: 0.7rem;
+    left: 0.8rem;
+}
+
+
+.banner-lista .lista-4::before{
+    content: "";
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-image: url(imagens/facebook.png);
+    background-size: cover;
+    position: absolute;
+    top: 0.7rem;
+    left: 0.8rem;
+}
+
+
+.banner-lista .lista-5::before{
+    content: "";
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-image: url(imagens/twitch.png);
+    background-size: cover;
+    position: absolute;
+    top: 0.7rem;
+    left: 0.8rem;
+}
+
+
+.banner-lista a {
+    width: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+.banner-lista a:hover {
+    background-color: white;
+}
+
+.banner-lista a:hover {
+    color: black;
+}
+/*Seção Estatisticas*/
+
+.secao-estatísticas {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(imagens/imagem-de-fundo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.secao-estatísticas h2 {
+    color: white;
+    font-size: 4.5rem;
+    text-shadow: 0.4rem 0.4rem 0.2rem black;
+    margin-top: 50px;
+}
+
+.estatísticas-table {
+    margin: 0 auto;
+    width: 610px;
+    height: 300px;
+    font-size: 1.4rem;
+    margin-top: 30px;
+}
+
+.estatísticas-table-tr :nth-child(1) {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.estatísticas-table-th {
+    background-color: #000000cc;
+}
+
+.estatísticas-table-tr:nth-of-type(odd) {
+    background-color: #ffffffcc;
+    color: black;
+    font-weight: 700;
+}
+
+.estatísticas-table-tr:nth-of-type(even) {
+    background-color: #000000cc;
+    color: white;
+    font-weight: 700;
+}
+
+.img-table {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.estatísticas-table-th th{
+    height: 6.0rem;
+    color: white;
+    padding-right: 0.5rem;
+}
+
+.estatísticas-table-tr td{
+    height: 6.0rem;
+}
