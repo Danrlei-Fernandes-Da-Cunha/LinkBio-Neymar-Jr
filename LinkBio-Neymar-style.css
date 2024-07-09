@@ -56,8 +56,8 @@ html, body {
 .banner-img-back::before {
     content: "";
     border-radius: 50.0rem;
-    width: 21.0rem;
-    height: 21.0rem;
+    width: 33.6em;
+    height: 33.6em;
     background-image: linear-gradient(to right, #ffdf00, #009c3b);
     position: absolute;
     top:-0.5rem;
@@ -106,7 +106,7 @@ html, body {
 }
 
 .link {
-    height: 40px;
+    height: 2.667em;
     position: relative;
     background-color: #0200006e;
     border: 0.1rem solid black;
@@ -157,14 +157,12 @@ html, body {
     text-shadow: 0.4rem 0.4rem 0.2rem black;
     margin-top: 5.0rem;
 }
-    
 
 .estatísticas-table {
     width: 43.72em;
     height: 21.6em;
     font-size: 1.4rem;
     margin-top: 3.0rem;
-
 }
 
 .estatísticas-table-tr :nth-child(1) {
@@ -190,8 +188,8 @@ html, body {
 }
 
 .img-table {
-    width: 30px;
-    height: 30px;
+    width: 2.143em;
+    height: 2.143em;
     object-fit: contain;
     object-position: center;
     margin-right: 0.5rem;
@@ -206,13 +204,29 @@ html, body {
 }
 
 /* MEDIA QUERY */
-/* 
+
 @media (max-width:667px) {
+    .banner-img {
+        width: 24.0em;
+        height: 24.0em;
+    }
+
+    .banner-img-back::before {
+        width: 25.6em;
+        height: 25.6em;
+        
+    }
+
     .banner-nav {
         width: 55%;
+        font-size: 1.0rem;
     }
 
     .link-img {
+        width: 1.6em;
+        height: 1.6em;
+    }
+    .estatísticas-table {
         display: none;
     }
-} */
+} 
