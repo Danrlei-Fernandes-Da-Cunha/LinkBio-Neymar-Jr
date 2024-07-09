@@ -97,91 +97,37 @@ html, body {
 }
 
 
-.banner-lista {
+.banner-nav {
     width: 39%;
     font-size: 1.5rem;
     display: flex;
     flex-direction: column;
+    text-align: center;
+    justify-content: center;
 }
 
-.banner-lista a {
-    height: 40px;
-    background-color: #0200006e;
-    margin-bottom: 2.0rem;
-    padding: 0.5rem;
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
     border: 0.1rem solid black;
     border-radius: 1.6rem;
+    margin-bottom: 2.0rem;
+    background-color: #0200006e;
+    height: 40px;
     position: relative;
-    font-weight: 700;
 }
 
-.banner-lista .lista-1::before{
-    content: "";
-    display: inline-block;
-    width: 2.5rem;
-    height: 2.5rem;
-    background-image: url(imagens/youtube.png);
-    background-size: cover;
+
+.link-img {
+    width: 1.8em;
+    height: 1.8em;
     position: absolute;
-    top: 0.7rem;
-    left: 0.8rem;
-}
-
-.banner-lista .lista-2::before{
-    content: "";
-    display: inline-block;
-    width: 2.5rem;
-    height: 2.5rem;
-    background-image: url(imagens/instagram.png);
-    background-size: cover;
-    position: absolute;
-    top: 0.7rem;
-    left: 0.8rem;
-}
-
-.banner-lista .lista-3::before{
-    content: "";
-    display: inline-block;
-    width: 2.5rem;
-    height: 2.5rem;
-    background-image: url(imagens/twitter.png);
-    background-size: cover;
-    position: absolute;
-    top: 0.7rem;
-    left: 0.8rem;
-}
-
-
-.banner-lista .lista-4::before{
-    content: "";
-    display: inline-block;
-    width: 2.5rem;
-    height: 2.5rem;
-    background-image: url(imagens/facebook.png);
-    background-size: cover;
-    position: absolute;
-    top: 0.7rem;
-    left: 0.8rem;
-}
-
-
-.banner-lista .lista-5::before{
-    content: "";
-    display: inline-block;
-    width: 2.5rem;
-    height: 2.5rem;
-    background-image: url(imagens/twitch.png);
-    background-size: cover;
-    position: absolute;
-    top: 0.7rem;
-    left: 0.8rem;
-}
-
-
-.banner-lista a {
-    width: 100%;
-    color: white;
-    text-decoration: none;
+    left: 0.5em;
+    top: 0.4em;
 }
 
 .banner-lista a:hover {
