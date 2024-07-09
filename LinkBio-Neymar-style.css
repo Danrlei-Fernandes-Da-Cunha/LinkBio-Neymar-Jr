@@ -96,7 +96,6 @@ html, body {
     border-radius: 5.0rem;
 }
 
-
 .banner-nav {
     width: 39%;
     font-size: 1.5rem;
@@ -107,20 +106,19 @@ html, body {
 }
 
 .link {
+    height: 40px;
+    position: relative;
+    background-color: #0200006e;
+    border: 0.1rem solid black;
+    border-radius: 1.6rem;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: 2.0rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-decoration: none;
-    color: white;
-    font-weight: 700;
-    border: 0.1rem solid black;
-    border-radius: 1.6rem;
-    margin-bottom: 2.0rem;
-    background-color: #0200006e;
-    height: 40px;
-    position: relative;
 }
-
 
 .link-img {
     width: 1.8em;
@@ -154,11 +152,11 @@ html, body {
     justify-content: center;
 }
 
-.secao-estatísticas h2 {
+.secao-estatísticas .estatísticas-subtitulo {
     color: white;
     font-size: 4.5rem;
     text-shadow: 0.4rem 0.4rem 0.2rem black;
-    margin-top: 50px;
+    margin-top: 5.0rem;
 }
 
 .estatísticas-table {
@@ -166,18 +164,17 @@ html, body {
     width: 610px;
     height: 300px;
     font-size: 1.4rem;
-    margin-top: 30px;
+    margin-top: 3.0rem;
 }
 
 .estatísticas-table-tr :nth-child(1) {
     display: flex;
     align-items: center;
-    gap: 10px;
-    margin-left: 20px;
 }
 
 .estatísticas-table-th {
     background-color: #000000cc;
+    color: white;
 }
 
 .estatísticas-table-tr:nth-of-type(odd) {
@@ -197,14 +194,13 @@ html, body {
     height: 30px;
     object-fit: contain;
     object-position: center;
+    margin-right: 0.5rem;
 }
 
-.estatísticas-table-th th{
-    height: 6.0rem;
-    color: white;
-    padding-right: 0.5rem;
+.estatísticas-table-th th {
+    padding: 2.0rem;
 }
 
-.estatísticas-table-tr td{
-    height: 6.0rem;
+.estatísticas-table-tr td {
+    padding: 1.5rem 1.0rem;
 }
