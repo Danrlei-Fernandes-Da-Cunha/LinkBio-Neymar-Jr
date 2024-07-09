@@ -128,11 +128,11 @@ html, body {
     top: 0.4em;
 }
 
-.banner-lista a:hover {
+.banner-nav .link:hover {
     background-color: white;
 }
 
-.banner-lista a:hover {
+.banner-nav .link:hover {
     color: black;
 }
 /*Seção Estatisticas*/
@@ -151,20 +151,20 @@ html, body {
     align-items: center;
     justify-content: center;
 }
-
 .secao-estatísticas .estatísticas-subtitulo {
     color: white;
     font-size: 4.5rem;
     text-shadow: 0.4rem 0.4rem 0.2rem black;
     margin-top: 5.0rem;
 }
+    
 
 .estatísticas-table {
-    margin: 0 auto;
-    width: 610px;
-    height: 300px;
+    width: 43.72em;
+    height: 21.6em;
     font-size: 1.4rem;
     margin-top: 3.0rem;
+
 }
 
 .estatísticas-table-tr :nth-child(1) {
@@ -204,3 +204,15 @@ html, body {
 .estatísticas-table-tr td {
     padding: 1.5rem 1.0rem;
 }
+
+/* MEDIA QUERY */
+/* 
+@media (max-width:667px) {
+    .banner-nav {
+        width: 55%;
+    }
+
+    .link-img {
+        display: none;
+    }
+} */
