@@ -206,6 +206,8 @@ html, body {
 /* MEDIA QUERY */
 
 @media (max-width:667px) {
+
+    /* Primeira Seção */
     .banner-img {
         width: 24.0em;
         height: 24.0em;
@@ -226,7 +228,23 @@ html, body {
         width: 1.6em;
         height: 1.6em;
     }
+
+    /* Segunda Seção */
     .estatísticas-table {
-        display: none;
+        max-width: 667px;
+        height: 10%;
+        font-size: 0.85rem;
+    }
+
+    .estatísticas-table-th th {
+        padding: 1.0rem;
+    }
+
+    .estatísticas-table-tr td {
+        padding: 1.5rem 0.5rem;
+    }
+
+    .secao-estatísticas .estatísticas-subtitulo {
+        font-size: 2.5rem;
     }
 } 
